@@ -27,7 +27,9 @@
     "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
+    "jquery": "^3.2.1",
     "lodash": "^4.17.4",
+    "socket.io": "^2.0.4",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   }

@@ -54,8 +54,8 @@ gulp.task('sass', function(){
 // });
 
 gulp.task('watch', () => {
-    watch(['./src/sass/**'], (evt) => gulp.start("sass"));
-    watch(['./src/es6/**'], (evt) => gulp.start("es6"));
+    watch(['./sass/**'], (evt) => gulp.start("sass"));
+    watch(['./es6/**'], (evt) => gulp.start("es6"));
     // watch(['./src/lib/**'], (evt) => gulp.start("copy"));
     // watch(['./src/**/*.html'], (evt) => gulp.start("copy"));
     // watch(['./dest/**/*'], (evt) => gulp.start('browserSync-reload'));
